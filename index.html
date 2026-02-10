@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon Linens - Premium Home Textiles</title>
+    <meta name="description"
+        content="Sri Lanka's finest collection of bedsheets, towels, tablecloths, and pillowcases. Premium quality, delivered to your doorstep.">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ceylon Linens</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" id="search-icon"><i class="fas fa-search"></i></a>
+                <a href="#" id="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience Luxury with Ceylon Linens</h1>
+            <p>Premium bedsheets, towels, and home textiles crafted for comfort and style.</p>
+            <a href="#shop" class="btn btn-primary">Shop Collection</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-item">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Island-wide Delivery</h3>
+                <p>Fast delivery across Sri Lanka</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-ribbon"></i>
+                <h3>Premium Quality</h3>
+                <p>Finest materials for lasting comfort</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-money-bill-wave"></i>
+                <h3>Cash on Delivery</h3>
+                <p>Pay upon receiving your order</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="shop" class="categories">
+        <div class="container">
+            <h2 class="section-title">Our Collections</h2>
+            <div class="category-grid">
+                <div class="category-card" data-category="bedsheets">
+                    <img src="images/category_bedsheet.svg" alt="Bedsheets">
+                    <div class="category-info">
+                        <h3>Bedsheets</h3>
+                        <a href="#" class="btn btn-secondary">View Products</a>
+                    </div>
+                </div>
+                <div class="category-card" data-category="towels">
+                    <img src="images/category_towel.svg" alt="Towels">
+                    <div class="category-info">
+                        <h3>Towels</h3>
+                        <a href="#" class="btn btn-secondary">View Products</a>
+                    </div>
+                </div>
+                <div class="category-card" data-category="tablecloths">
+                    <img src="images/category_tablecloth.svg" alt="Table Cloths">
+                    <div class="category-info">
+                        <h3>Table Cloths</h3>
+                        <a href="#" class="btn btn-secondary">View Products</a>
+                    </div>
+                </div>
+                <div class="category-card" data-category="pillowcases">
+                    <img src="images/category_pillowcase.svg" alt="Pillow Cases">
+                    <div class="category-info">
+                        <h3>Pillow Cases</h3>
+                        <a href="#" class="btn btn-secondary">View Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2 class="section-title">Trending Now</h2>
+            <div class="product-grid" id="product-list">
+                <!-- Products will be dynamically inserted here by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Join Our Newsletter</h2>
+            <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-col">
+                <h3>Ceylon Linens</h3>
+                <p>Bringing comfort and elegance to Sri Lankan homes.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Colombo, Sri Lanka</li>
+                    <li><i class="fas fa-phone"></i> +94 77 123 4567</li>
+                    <li><i class="fas fa-envelope"></i> info@ceylonlinens.lk</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ceylon Linens. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
